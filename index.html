@@ -32,13 +32,17 @@
         <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
     </header>
 
-    <!-- 계정 입력 폼 & 회원가입 버튼 -->
-    <form id="login-form">
-        <input type="text" placeholder="Email or Phone number" />
-        <input type="password" placeholder="Password" />
-        <input type="submit" value="Log In"/>
-        <input type="submit" value="Sign Up"/>
-        <a href="find.html">Find Kakao Account or Password</a>
+    <!-- 로그인 & 회원가입 폼 -->
+    <!-- 로그인 -->
+    <form action="friends.html" method="get" class="login-form">
+        <input name="username" type="text" placeholder="Email or Phone number" />
+        <input name="password" type="password" placeholder="Password" />
+        <input  class="login-form__btn" type="submit" value="Log In"/>
+    </form>
+    <!-- 회원가입 -->
+    <form action="join.html" method="get" class="login-form">
+        <input class="login-form__btn" type="submit" value="Sign Up"/>
+        <a class="login-form__a" href="find.html">Find Kakao Account or Password</a>
     </form>
     <script src="https://kit.fontawesome.com/9ddfe97fd6.js" crossorigin="anonymous"></script>
 </body>
