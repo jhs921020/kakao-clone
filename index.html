@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kakao-Clone</title>
+    <title>Kakao Clone</title>
 </head>
 <body>
+    <!-- 모바일 상단 - 상태바 -->
     <div id="status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -23,6 +24,21 @@
             <i class="fa-solid fa-bolt"></i>
         </div>
     </div>
+
+    <!-- index 헤더 안내 화면 -->
+    <header class="welcome-header">
+        <h1 class="welcome-header__title">Welcome to Kakao Clone</h1>
+        <p class="welcome-header__text">If you have a Kakao Account, log in with your email or phone number.</p>
+    </header>
+
+    <!-- 계정 입력 폼 & 회원가입 버튼 -->
+    <form id="login-form">
+        <input type="text" placeholder="Email or Phone number" />
+        <input type="password" placeholder="Password" />
+        <input type="submit" value="Log In"/>
+        <input type="submit" value="Sign Up"/>
+        <a href="find.html">Find Kakao Account or Password</a>
+    </form>
     <script src="https://kit.fontawesome.com/9ddfe97fd6.js" crossorigin="anonymous"></script>
 </body>
 </html>
