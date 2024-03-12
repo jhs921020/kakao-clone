@@ -29,3 +29,19 @@
   left: -3px;
   bottom: 20px;
 }
+
+/* 편법... 추후 수정 */
+.exclamation-mark {
+  color: tomato;
+  border: 1px solid;
+  border-radius: 10px;
+  width: 3px;
+  padding: 1px 5px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 155px;
+  bottom: 0.5px;
+}
