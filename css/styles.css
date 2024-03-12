@@ -12,6 +12,7 @@
 @import url(screens/header.css);
 @import url(screens/login-form.css);
 @import url(screens/friends.css);
+@import url(screens/find.css);
 
 body {
   color: #2e363e;
