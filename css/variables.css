@@ -1,3 +1,4 @@
 :root {
- --yellow: #fae100;   /* var(--yellow) */
+  --yellow: #fae100; /* var(--yellow) */
+  --horizontal-space: 25px;
 }
